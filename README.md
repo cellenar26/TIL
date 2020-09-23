@@ -15,10 +15,10 @@
 - print('%s' %'string letter')
 - print('%s grade is : %d and avg is : %d' %('JAMES', 100, 80))
 - print('%f' %2.123456789)
-- print('%.2f' %2.111)
-- print('%.2f' %2.554)
-- print('%.2f' %2.555)
-- print('%.2f' %2.556)
+- print('%.2f' %2.111) # 2.11
+- print('%.2f' %2.554) # 2.55
+- print('%.2f' %2.555) # 2.56
+- print('%.2f' %2.556) # 2.56
 
 ## 아스키 코드 변환
 - print(ord('A'))
