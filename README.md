@@ -25,22 +25,22 @@
 - print(chr(65))
 
 ## int()를 통한 진법변환
-- print(int('0b101010', 2))
-- print(int('0o52', 8))
-- print(int('42',10))
-- print(int('42'))
+- print(int('0b101010', 2)) # 42
+- print(int('0o52', 8)) # 42
+- print(int('42',10)) # 42
+- print(int('42')) # 42
 
 ## 숫자에서 다른진수의 문자열로 변환 - 인자가 숫자일 때
-- print(bin(42))
-- print(oct(42))
-- print(hex(42))
-- print(str('42'))
+- print(bin(42)) # 0b101010
+- print(oct(42)) # 0o52
+- print(hex(42)) # 0x2a
+- print(str('42')) # 42
 
 ## 숫자에서 다른진수의 문자열로 변환 - 인자가 다른 진법의 숫자일 때
-- print(bin(0b101010))
-- print(oct(0b101010))
-- print(hex(0b101010))
-- print(str(0b101010))
+- print(bin(0b101010)) # 0b101010
+- print(oct(0b101010)) # 0o52
+- print(hex(0b101010)) # 0x2a
+- print(str(0b101010)) # 42
 
 ## 다중 입력 받기
 - a,b,c = input().split() # 공백을 기준으로 입력을 받음
