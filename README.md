@@ -1,5 +1,8 @@
 # TIL
 
+## 자료구조 보고 정리할 블로그
+https://daimhada.tistory.com/105
+
 # 파이썬 입/출력
 
 ## 한 줄에 출력 하기의 예시
