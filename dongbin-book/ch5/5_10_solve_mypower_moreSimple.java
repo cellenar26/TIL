@@ -66,5 +66,6 @@ public class Main {
             }
         }
         System.out.println("만들 수 있는 얼음의 수: "+result);
+	// 해석 작성중!
     }
 }
