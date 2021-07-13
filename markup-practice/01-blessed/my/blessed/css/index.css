@@ -1,15 +1,139 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-#header-container {
-  background-image: url("../images/banner.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  border-radius: 0px 0px 170px 170px;
+
+.header-background {
+   height: 600px;
+    background: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 170px 170px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    width: 900px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-container {
+    flex-grow: 2;
+}
+.nav-container {
+    text-align: center;
+    
+}
+
+.nav-container nav ul {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    list-style: none;
+}
+.nav-container nav ul a {
+    height: auto;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    color: #d8516e;
+    font-size: 1.2rem;
+}
+.header-main-container {
+/*    position: relative;*/
+/*    top: 50px;*/
+/*    align-items: center;*/
+}
+.header-main {
+    position: relative;
+    top: 30px;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.header-main h2 {
+    flex-grow: 2;
+    font-size: 60px;
+    line-height: 77px;
+}
+.button-container button {
+    background-color: #fff;
+    color: #d8516e;
+    font-size: 17px;
+    padding: 13px 0px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-container {
+ position: relative;
+    margin-top: 90px;
+}
+
+.button-container > button {
+    border: 0px;
+}
+
+
+
+.who {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.who-title-container {
+    width: 100%;
+    text-align: center;
+}
+.who-title-container h2 {
+font-size: 50px;   
+}
+
+.photo-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.row-who {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left-container {
+    width: 100%;
+    text-align-last: right;
+    margin-right: 60px;
+}
+
+.right-container {
+    width: 100%;
+    text-align: left;
+    margin-left: 60px;
+}
+.text-button-container {
+    width: 100%;
+}
+
+.text-area {
+    width: 900px;
+
 }
